@@ -276,7 +276,7 @@ button {
   background-color: #9aed8f16;
 }
 .about{
-        background-image: url("img/about_background.jpg");
+        background-image: url("/img/about_background.jpg");
 }
 .callto {
   position: relative;
