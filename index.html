@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feeding America</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+
+<body class="body">
+    <header class="main">
+        <nav class="nav">
+            <div class="nav__logo">
+                <img id="logo" src="./img/logo.png" alt="">
+                <a href="/index.html">
+                    <h1>Feeding America</h1>
+                </a>
+            </div>
+            <div class="div__links">
+                <a href="/index.html">
+                    <h3>Home</h3>
+                </a>
+                <a href="/about.html">
+                    <h3>About</h3>
+                </a>
+                <a href="./services.html">
+                    <h3>Services</h3>
+                </a>
+                <a href="./contact.html">
+                    <h3>Contact</h3>
+                </a>
+            </div>
+            <img id="burger" src="img/menu.svg" alt="">
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section__hero arriba" id="about">
+            <div class="hero__texts">
+                <h2>Making a Difference Together!</h2>
+                <p>We help those in need. Join our cause.</p>
+                <img src="img/hero_foodBank.png" alt="">
+            </div>
+            <form  class="form">
+                <h2>Help us to help those in need</h2>
+                <input type="text" id="name" placeholder="Your Name:" name="name" required>
+                <input type="email" placeholder="Your email:" id="email" name="email" required>
+                <input type="number" id="donationAmount" placeholder="Donation Amount:" name="donationAmount" min="1"
+                    required>
+                <button id="form__button" > <a href="calltoaction.html">Donate</a></button>
+            </form>
+        </section>
+
+       
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="./img/logo.png" alt="">
+            <h2>Feeding America</h2>
+        </div>
+        <div class="footer__services">
+            <h3>Students</h3>
+            <div class="services__quantity">
+                <p>Tomas Ortega</p>
+                <p>Akhilesh Karippassery </p>
+                <p>Varun Khunger</p>
+                <p>Sanjanpreet kaur</p>
+            </div>
+        </div>
+        
+        <div class="footer__services">
+            <h3>Social Media</h3>
+            <div class="services__media">
+                <div class="img__media"><img src="./img/youtube.svg" alt=""></div>
+                <div class="img__media"><img src="./img/facebook.svg" alt=""></div>
+                <div class="img__media"><img src="./img/twitter.svg" alt=""></div>
+                <div class="img__media"><img src="./img/instagram.svg" alt=""></div>
+            </div>
+        </div>
+    </footer>
+        <script src="/app.js"></script>
+</body>
+
+</html>

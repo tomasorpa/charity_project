@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feeding America</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+  </head>
+  <body class="body">
+    <header class="main">
+      <nav class="nav">
+        <div class="nav__logo">
+          <img id="logo" src="./img/logo.png" alt="" />
+          <a href="./index.html">
+            <h1>Feeding America</h1>
+          </a>
+        </div>
+        <div class="div__links">
+          <a href="/index.html">
+            <h3>Home</h3>
+          </a>
+          <a href="/about.html">
+            <h3>About</h3>
+          </a>
+          <a href="./services.html">
+            <h3>Services</h3>
+          </a>
+          <a href="./contact.html">
+            <h3>Contact</h3>
+          </a>
+        </div>
+        <img id="burger" src="img/menu.svg" alt="" />
+      </nav>
+    </header>
+    <main class="main">
+      <section id="whyus" class="section__whyUs">
+        <div class="whyUs__container">
+          <div class="whyUs__cards">
+            <h2>General Inquiries</h2>
+            <p>
+              Tel: 613-232-3569 <br />
+              Toll free: 1-800-661-2633<br />
+              Fax: 613-232-7435<br />
+              info@code.ngo
+            </p>
+          </div>
+          
+          <div class="whyUs__cards">
+            <h2>To Donate</h2>
+            <p>
+            Tel: 613-232-3569 ext 245
+            Toll free: 1-800-661-2633 ext 245
+            info@code.ngo
+            </p>
+          </div>
+          <div class="whyUs__cards">
+            <h2>Location</h2>
+            <p>
+            3201 Chepael Street
+            Toronto, ON
+            K3N 7B2
+            Canada
+            </p>
+          </div>
+        </div>
+        <form action="/submit_contact" class="form__contact" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            required
+          ></textarea>
+
+          <button class="button__form" type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="./img/logo.png" alt="" />
+        <h2>Feeding America</h2>
+      </div>
+      <div class="footer__services">
+        <h3>Students</h3>
+        <div class="services__quantity">
+          <p>Tomas Ortega</p>
+          <p>Akhilesh Karippassery</p>
+          <p>Varun Khunger</p>
+          <p>Sanjanpreet kaur</p>
+        </div>
+      </div>
+
+      <div class="footer__services">
+        <h3>Social Media</h3>
+        <div class="services__media">
+          <div class="img__media"><img src="./img/youtube.svg" alt="" /></div>
+          <div class="img__media"><img src="./img/facebook.svg" alt="" /></div>
+          <div class="img__media"><img src="./img/twitter.svg" alt="" /></div>
+          <div class="img__media"><img src="./img/instagram.svg" alt="" /></div>
+        </div>
+      </div>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
